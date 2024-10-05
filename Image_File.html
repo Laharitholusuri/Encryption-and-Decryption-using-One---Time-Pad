@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Encryption & Decryption</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Encryption & Decryption</h1>
+        <div class="file-input">
+            <!-- File input to select an image -->
+            <input type="file" id="imageInput" accept="image/*" />
+        </div>
+        <button id="encryptButton" class="btn">Encrypt Image</button>
+        <a id="downloadLink" class="download-link" style="display: none;">Download Encrypted Image</a>
+        <a id="keyDownloadLink" class="download-link" style="display: none;">Download Encryption Key</a>
+
+        <h2>Decrypt Encrypted Image</h2>
+        <div class="file-input">
+            <!-- File input to select an encrypted image -->
+            <input type="file" id="encryptedInput" accept=".bin" />
+        </div>
+        <button id="decryptButton" class="btn">Decrypt Image</button>
+        <a id="decryptedDownloadLink" class="download-link" style="display: none;">Download Decrypted Image</a>
+    </div>
+
+    <script src="j.js"></script>
+</body>
+</html>
