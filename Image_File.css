@@ -1,0 +1,78 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container to center content */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+/* Heading style */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Subheading style */
+h2 {
+    color: #333;
+    margin-top: 30px;
+}
+
+/* Styling the file input container */
+.file-input {
+    margin-bottom: 20px;
+}
+
+/* File input field */
+input[type="file"] {
+    padding: 8px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Encrypt button style */
+.btn {
+    background-color: #5cb85c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #4cae4c;
+}
+
+/* Download link style */
+.download-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #0275d8;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.download-link:hover {
+    background-color: #025aa5;
+}
