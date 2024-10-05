@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One-Time Pad Text File Encryption & Decryption</title>
+    <link rel="stylesheet" href="textfile.css">
+</head>
+<body>
+    <div class="container">
+        <h1>One-Time Pad Text File Encryption & Decryption</h1>
+        <div>
+            <label for="fileInput">Select File:</label>
+            <input type="file" id="fileInput" accept=".txt">
+            <br><br>
+            <button onclick="encrypt()">Encrypt</button>
+            <button onclick="decrypt()">Decrypt</button>
+        </div>
+        <div>
+            <a id="downloadLink" style="display: none;" download>Download Result</a>
+            <a id="keyDownloadLink" style="display: none;" download>Download Encryption Key</a>
+        </div>
+    </div>
+    <script src="textfile.js"></script>
+</body>
+</html>
